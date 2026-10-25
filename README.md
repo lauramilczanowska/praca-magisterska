@@ -6,11 +6,11 @@ W repozytorium znajduje się **wyłącznie rozdział 3 – część empiryczna**
 
 ## 🎯 Cel badania
 
-Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od upadłości) wpływa na skuteczność modeli przewidujących upadłość przedsiębiorstw. W rozdziale porównano modele budowane dla różnych horyzontów czasowych: [1 - 5 lat przed upadłością].
+Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od upadłości) wpływa na skuteczność modeli przewidujących upadłość przedsiębiorstw. W rozdziale porównano modele budowane dla różnych horyzontów czasowych: 1 - 5 lat przed upadłością.
 
 ## 🗂️ Dane
 
-- **Źródło:** [[nazwa bazy danych / źródło](https://archive.ics.uci.edu/dataset/365/polish+companies+bankruptcy+data)]
+- **Źródło:** [[polish companies bankruptcy data](https://archive.ics.uci.edu/dataset/365/polish+companies+bankruptcy+data)]
 - **Próba:** łącznie 43 004 przedsiębiorstwa
 - **Okres:** firmy, które zbankrutowały, analizowano w latach 2000-2012, natomiast firmy nadal funkcjonujące badano w okresie 2007-2013. 
 - **Zmienne:** 64 wskaźniki finansowe
@@ -38,4 +38,4 @@ Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od u
 ## 🛠️ Narzędzia
 
 - **STATISTICA** – analiza danych i budowa modeli
-- [Excel]
+- Excel
