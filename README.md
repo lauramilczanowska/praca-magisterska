@@ -1,6 +1,6 @@
 # 📉 Rola horyzontu czasowego w prognozowaniu upadłości przedsiębiorstw
 
-W repozytorium znajduje się **wyłącznie rozdział 3 – część empiryczna** pracy magisterskiej. Pozostałe rozdziały (wstęp, przegląd literatury, wnioski) nie zostały tu zamieszczone.
+W repozytorium znajduje się **wyłącznie rozdział 3 – część empiryczna** pracy magisterskiej. Pozostałe rozdziały nie zostały tu zamieszczone.
 
 📎 **[Rozdział 3 w formacie PDF](/rozdział3.pdf)**
 
@@ -10,12 +10,10 @@ Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od u
 
 ## 🗂️ Dane
 
-- **Źródło:** [nazwa bazy danych / źródło]
-- **Próba:** [liczba przedsiębiorstw, w tym liczba upadłych i zdrowych]
-- **Okres:** [lata]
-- **Definicja upadłości:** [np. ogłoszenie upadłości, otwarcie postępowania]
-- **Zmienne:** wskaźniki finansowe [np. płynności, zadłużenia, rentowności, sprawności]
-- **Podział próby:** [np. próba ucząca i testowa w proporcji ...]
+- **Źródło:** [[nazwa bazy danych / źródło](https://archive.ics.uci.edu/dataset/365/polish+companies+bankruptcy+data)]
+- **Próba:** łącznie 43 004 przedsiębiorstwa
+- **Okres:** firmy, które zbankrutowały, analizowano w latach 2000-2012, natomiast firmy nadal funkcjonujące badano w okresie 2007-2013. 
+- **Zmienne:** 64 wskaźniki finansowe
 
 ## 🔬 Metodyka
 
@@ -40,17 +38,4 @@ Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od u
 ## 🛠️ Narzędzia
 
 - **STATISTICA** – analiza danych i budowa modeli
-- [Excel / inne, jeśli używane]
-
-## 📁 Struktura repozytorium
-
-```
-├── README.md
-├── wyniki/               # wykresy i tabele (opcjonalnie)
-└── praca/
-    └── rozdzial3.pdf     # rozdział 3 – część empiryczna
-```
-
-## 📬 Kontakt
-
-[LinkedIn](https://www.linkedin.com/in/laura-mil)
+- [Excel]
