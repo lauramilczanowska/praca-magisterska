@@ -2,11 +2,11 @@
 
 W repozytorium znajduje się **wyłącznie rozdział 3 – część empiryczna** pracy magisterskiej. Pozostałe rozdziały (wstęp, przegląd literatury, wnioski) nie zostały tu zamieszczone.
 
-📎 **[Rozdział 3 w formacie PDF](/Laura Milczanowska_Rola horyzontu czasowego w prognozowaniu upadłości przedsiębiorstw_removed.pdf)**
+📎 **[Rozdział 3 w formacie PDF](/rozdział3.pdf)**
 
 ## 🎯 Cel badania
 
-Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od upadłości) wpływa na skuteczność modeli przewidujących upadłość przedsiębiorstw. W rozdziale porównano modele budowane dla różnych horyzontów czasowych: [np. 1, 2 i 3 lata przed upadłością].
+Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od upadłości) wpływa na skuteczność modeli przewidujących upadłość przedsiębiorstw. W rozdziale porównano modele budowane dla różnych horyzontów czasowych: [1 - 5 lat przed upadłością].
 
 ## 🗂️ Dane
 
@@ -16,8 +16,6 @@ Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od u
 - **Definicja upadłości:** [np. ogłoszenie upadłości, otwarcie postępowania]
 - **Zmienne:** wskaźniki finansowe [np. płynności, zadłużenia, rentowności, sprawności]
 - **Podział próby:** [np. próba ucząca i testowa w proporcji ...]
-
-> Dane nie są udostępnione w repozytorium [ze względu na licencję bazy / poufność].
 
 ## 🔬 Metodyka
 
