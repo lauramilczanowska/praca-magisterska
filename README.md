@@ -17,23 +17,28 @@ Sprawdzenie, jak **horyzont prognozy** (liczba lat dzielących moment oceny od u
 
 ## 🔬 Metodyka
 
-1. Dobór próby i przygotowanie danych
-2. Wybór zmiennych objaśniających: [metoda selekcji]
-3. Budowa modeli dla poszczególnych horyzontów: [np. regresja logistyczna, drzewa decyzyjne, ...]
-4. Ocena jakości modeli: [np. AUC, współczynnik Giniego, czułość, swoistość, trafność klasyfikacji]
+1. Przygotowanie danych i wstępna analiza
+2. Wybór zmiennych objaśniających: wskaźnik IV (Information Value), Random Forest, średnia ranga isotności korelacja Spearmana
+3. Budowa modeli dla poszczególnych horyzontów: regresja logistyczna
+4. Ocena jakości modeli: AUC, ACC, czułość, specyficzność, NPV, PPV, test Hosmera - Lemeshowa
 
 ## 📊 Wyniki
 
-| Horyzont | Model | AUC | Gini | Czułość | Swoistość |
-|---|---|---|---|---|---|
-| [1 rok] | [model] | [ ] | [ ] | [ ] | [ ] |
-| [2 lata] | [model] | [ ] | [ ] | [ ] | [ ] |
-| [3 lata] | [model] | [ ] | [ ] | [ ] | [ ] |
+Model 1 zbudowano na danych z pierwszego roku okresu prognozowania, pięć lat przed 
+wystąpieniem zdarzenia i jest to najdłuższy badany horyzont czasowy.
+
+| Model | AUC | ACC | Czułość | Specyficzność |
+| :--- | :---: | :---: | :---: | :---: |
+| Model 1 | 0,850 | 0,781 | 0,779 | 0,781 |
+| Model 2 | 0,805 | 0,720 | 0,726 | 0,720 |
+| Model 3 | 0,818 | 0,741 | 0,736 | 0,741 |
+| Model 4 | 0,810 | 0,737 | 0,741 | 0,736 |
+| Model 5 | 0,882 | 0,810 | 0,811 | 0,810 |
 
 **Najważniejsze wnioski:**
-- [wniosek 1, np. jak zmienia się skuteczność wraz z wydłużaniem horyzontu]
-- [wniosek 2, np. które zmienne były istotne w poszczególnych horyzontach]
-- [wniosek 3]
+- Najwyższą skutecznością predykcyjną charakteryzował się model oparty na danych z roku bezpośrednio 
+poprzedzającego bankructwo, co jest wynikiem zgodnym z oczekiwaniami.
+- Kluczowym i nieoczekiwanym wynikiem badania jest brak monotonicznego trendu wzrostowego skuteczności wraz ze skracaniem horyzontu. Lepsze wyniki modelu z 5-letnim horyzontem niż 4-letnim, może wynikać z różnic w składzie i liczebności prób lub ze specyfiki okresu obserwacji i wymaga pogłębionej analizy w przyszłych badaniach.
 
 ## 🛠️ Narzędzia
 
